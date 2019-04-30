@@ -1,0 +1,17 @@
+{
+    "name": "rs-starter-nodejs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/SamuelHiroyuki/rs-starter-nodejs.git",
+    "author": "Samuel Hiroyuki <36797629+SamuelHiroyuki@users.noreply.github.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.11"
+    }
+}

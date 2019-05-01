@@ -1,10 +1,10 @@
-const mongoose = require("mongoose");
+const Product = require("../models/Product");
 
-const Product = mongoose.model("Product");
-
-module.exports = {
-    async index(req, res) {
+class ProductController {
+    async get(req, res) {
         const products = await Product.find();
         return res.json(products);
     }
-};
+}
+
+module.exports = new ProductController();
